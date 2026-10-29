@@ -1,7 +1,7 @@
 :root {
   font-family: 'DM Sans', 'Segoe UI', sans-serif;
   color: #25251f;
-  background: #fbfaf7;
+  background: #fbfaf4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,12 +10,12 @@
 
   --ink: #25251f;
   --muted: #89887f;
-  --line: #eae8e0;
+  --line: #e9e7da;
   --paper: #fff;
-  --green: #355943;
-  --green-dark: #294832;
-  --green-light: #edf3ee;
-  --orange: #d77d45;
+  --green: #607a45;
+  --green-dark: #4a6336;
+  --green-light: #eff1e4;
+  --orange: #c9824b;
   --danger: #b64c45;
   --shadow: 0 12px 34px rgba(48, 47, 37, 0.07);
 }
@@ -49,7 +49,7 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(53, 89, 67, 0.3);
+  outline: 3px solid rgba(96, 122, 69, 0.32);
   outline-offset: 2px;
 }
 
