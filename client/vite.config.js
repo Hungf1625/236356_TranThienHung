@@ -6,7 +6,14 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000',
+      '/api': {
+        target: 'https://api-236356.onrender.com',
+        changeOrigin: true,
+        secure: true,
+      },
     },
+  },
+  preview: {
+    allowedHosts: ['web-236356.onrender.com'],
   },
 })

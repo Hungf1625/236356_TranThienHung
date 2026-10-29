@@ -14,3 +14,5 @@ The API is served from `/api/foods`.
 Successful responses contain `success: true` and the result in `data`. Errors contain `success: false` and a `message`. Search requires the `q` query parameter.
 
 Do not include `foodId` when creating or updating a food. New foods receive a unique `FOOD-<UUID>` identifier from the server, and the identifier cannot be changed through the API.
+
+Backend Url = "https://api-236356.onrender.com/api/foods"

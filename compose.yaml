@@ -16,7 +16,7 @@ services:
       context: ./client
       dockerfile: Dockerfile
       args:
-        VITE_API_URL: http://localhost:5000/api/foods
+        VITE_API_URL: https://api-236356.onrender.com/api/foods
     ports:
       - "4173:4173"
     depends_on:

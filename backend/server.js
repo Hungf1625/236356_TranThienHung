@@ -21,7 +21,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:4173',
   'http://localhost:3000',
-  'https://mern-frontend-236356.onrender.com'  
+  'https://web-236356.onrender.com',
 ].filter(Boolean);
 
 app.use(cors({

@@ -9,7 +9,7 @@ COPY index.html vite.config.js ./
 COPY src ./src
 COPY public ./public
 
-ARG VITE_API_URL=http://localhost:5000/api/foods
+ARG VITE_API_URL=https://api-236356.onrender.com/api/foods
 ENV VITE_API_URL=${VITE_API_URL}
 
 RUN npm run build
